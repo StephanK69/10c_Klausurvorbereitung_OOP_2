@@ -2,7 +2,7 @@ package com.cc.java;
 
 public class Test {
     
-    //Felder (fields) | Attribute, Eigenschaften
+    // Felder (fields) | Attribute, Eigenschaften
     // private --> Kapselung / encapsulation/ data hiding
 
     private String name;
@@ -25,14 +25,15 @@ public class Test {
         this.name = name;
     }
 
-    
+    public int getAge() {
+        return age;
+    }
 
+    public void setAge(int age) {
+        this.age = age;
+    }
 
-
-
-
-
-
+ 
 
 
 
